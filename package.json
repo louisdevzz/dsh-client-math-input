@@ -2,7 +2,15 @@
   "name": "@louisdevzz/dsh-client-math-input",
   "description": "dsh composer plugin: a MathLive visual editor popup that inserts LaTeX into the draft",
   "version": "0.1.0",
-  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louisdevzz/dsh-client-math-input.git"
+  },
+  "homepage": "https://github.com/louisdevzz/dsh-client-math-input#readme",
+  "bugs": "https://github.com/louisdevzz/dsh-client-math-input/issues",
   "type": "module",
   "main": "lib/index.js",
   "types": "lib/types/index.d.ts",
