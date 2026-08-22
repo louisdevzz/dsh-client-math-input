@@ -1,0 +1,7 @@
+# Bundle patch for the math-input plugin: inserts its plugin row into the
+# web profile roster. Applied as a profile bundle layer (the `dsh.bundle.patch`
+# manifest field); install with:
+#   dsh plugin --profile web add link:/path/to/dsh-client-math-input
+- insert:
+    - id: ui-math-input
+      name: '@louisdevzz/dsh-client-math-input'
